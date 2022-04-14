@@ -30,6 +30,8 @@ Izdrukāt eglīti ar zvaigznītēm.
 
 ## 5. uzdevums
 Izdrukāt divus trīsstūrus viens otram blakus (augstumā 3)
+```bash
   *     *
  ***   ***
 ***** *****
+```
