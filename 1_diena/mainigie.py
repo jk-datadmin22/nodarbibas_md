@@ -62,4 +62,7 @@ print("Vārds:", vards, "Vērtējums:", vertejums)
 print("Uzvārds:", uzvards)
 
 print("Vārds:{vards}, Uzvārds:{uzvards}, Vērtejums:{vertejums}")
+
 print(f"Vārds:{vards}, Uzvārds:{uzvards}, Vērtejums:{vertejums}")
+
+print("Vārds:{}, Uzvārds:{}, Vērtejums:{}".format(vards, uzvards, vertejums))
