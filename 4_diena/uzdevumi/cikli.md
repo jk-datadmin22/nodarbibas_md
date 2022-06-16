@@ -15,7 +15,7 @@ Izveido programmu, kas izdrukā skaitļus no 1 līdz 100, bet skaitļu vietās, 
 - 5 tiek izdrukāts vārds "Rum",
 - 3 un 5 tiek izdrukāts vārds "BumRum"
 
-## 5. uzdevums
+## 5. uzdevums NEPILDĪT
 Izveidot programmu, kas prasa lietotājam ievadīt vairākus skaitļus - ievade beidzas, kad lietotājs ir ievadījis 0.
 Aprēķināt no visiem ievadītajiem pāra skaitļiem vidējo aritmētisko. (0- nav ne pāra, ne nepāra)
 
@@ -46,5 +46,5 @@ Izveido programmu, kas izdrukā zemāk esošo piemēru. Jāizmanto cikls-ciklā.
 *
 ```
 
-## 8. uzdevums
+## 8. uzdevums NEPILDĪT
 Izveido programmu, kur lietotājam ir jāuzmin datora iedomātais skaitlis (no 1 līdz 20). Lietotājs min tik ilgi, kamēr ir atminējis skaitli, beigās parāda tekstu "Apsveicam ar uzvaru!" un rezultātu (minējuma skaitu).
