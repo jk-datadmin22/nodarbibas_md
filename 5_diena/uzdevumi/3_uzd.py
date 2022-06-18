@@ -8,7 +8,12 @@ skaitlis = random.randint(1, 20) # datora iedomātais skaitlis
 meginajumi = 0
 
 while True:
-    minejums = int(input("Ievadi skaitli, kuru gribi uzminēt (0 - iziet):"))
+    try:
+        minejums = int(input("Ievadi skaitli, kuru gribi uzminēt (0 - iziet):"))
+    except:
+        print("Ievade ir nepareiza...")
+        continue
+    
     meginajumi = meginajumi + 1
 
     if minejums == 0:
