@@ -35,17 +35,23 @@ def info(htmlDatne):
     zupa = bs(html, "html.parser")
 
     tabulas = zupa.find_all("table")
+    
+    autoTabula = tabulas[4]
 
-    for tabula in tabulas:
-        print(tabula)
-        print("==================================")
-        print("==================================")
-        print("==================================")
-        print("==================================")
-        print("==================================")
-        print("==================================")
+    autoRindas = autoTabula.find_all("tr")
 
+    for rinda in autoRindas[1:-1]:
+        # print(rinda)
+        # print("========================")
+        # print("========================")
+        # print("========================")
 
+        lauki = rinda.find_all("td")
+        gads = lauki[4].text
+        print(gads)
 
+        #exit()
+
+    
 
 info("7_diena/requests/lapas/lapa_1.html")
